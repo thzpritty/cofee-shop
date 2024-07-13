@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(236, 208, 118); 
+    overflow-x: hidden;
+     width: 100%;
+}
+.brewbeans{
+    font-family: "Black Ops One", system-ui;
+    font-size: 120px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px  black;
+    
+}
+
+#text1{
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    
+    
+}
+
+#content1{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    
+}
+
+#para1{
+
+    text-align: justify;
+    width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
+}
+#sticky{
+    position: fixed;
+    bottom: 2%;
+    margin-left: 90%;
+    /* border-radius: 50px; */
+}
+
+#sticky img{
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    
+}
+#sticky img:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+#type{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 208, 118);;
+    /* height: 800px; */
+    justify-content: start;
+    align-items: center;
+    color:rgb(48, 31, 19) ;
+    margin-right: 30%;
+    
+}
+#type::before{
+    content: "";
+    position: absolute;
+   
+
+
+}
+#type1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#type-section{
+    padding: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading-type{ 
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight:bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+
+}
+#type-section ul{
+    margin-left: 25px;
+    /* margin-top: 20px; */
+    margin-right: 25px;
+}
+#type-section ul li{
+    margin-top: 20px;
+}
+.head2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight:bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+
+.top-brand-sub-heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#top-brand-img:hover img{
+
+    box-shadow: 0 1px 2px 5px #DFBB96;
+   
+   
+    opacity: 0.9;
+  
+}
+  
+
+.topbrand-paragraph{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;   
+
+}
+#gallery-img{
+
+    border-radius: 25px;
+}
+
+#gallery-img:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    width: 300px;
+    height: 250px;
+    transition: .6s;
+    
+}
+
+#name{
+
+    background-color: #F4ECE6;
+    
+}
+
+#email{
+    
+     background-color: #F4ECE6;
+}
+
+#quary{
+
+    background-color: #F4ECE6;
+
+}
+
+#button{
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight:bolder;
+    color: #F4ECE6;
+    background-color: rgb(92, 53, 26);
+    margin-left: 400px;
+   margin-bottom: 20px;
+    
+   
+}
+#button:hover{
+   
+    background-color: rgb(220, 153, 60);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: .6s;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+#footer{
+
+    background-color: rgb(220, 153, 60);
+    width: 100%;
+    position: sticky;
+    bottom: 1;
+    padding-bottom: 20pX;
+
+   
+}
+
+#footer-icon:hover img{
+
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    
+}
+.direction{
+    color: rgb(113, 61, 9);
+}
+.direction:hover{
+    color:rgb(252, 227, 194);
+
+}
+
+
